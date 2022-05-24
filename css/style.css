@@ -97,31 +97,39 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 192px;
+  padding-bottom: 192px;
 }
-
+.hero__content {
+  display: flex;
+  gap: 45px;
+  max-width: 308px;
+  flex-direction: column;
+}
 .hero__title {
-  padding-top: 180px;
-  padding-bottom: 35px;
+  margin: 0;
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
   color: #ffffff;
-  margin: 0;
 }
 .hero__descr {
+  margin: 0;
   line-height: 20px;
   color: #ffffff;
-  max-width: 308px;
-  padding-bottom: 59px;
 }
 .hero__link {
   line-height: 16px;
-  text-align: center;
   letter-spacing: 0.05em;
   color: #ffffff;
+  background-color: #f13c6e;
   border: 2px solid #ffffff;
   border-radius: 40px;
   padding: 12px 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
 }
 
 .special {
