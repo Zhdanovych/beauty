@@ -227,6 +227,7 @@ a {
   color: #c4c4c4;
   width: 225px;
   height: 35px;
+  border: none;
 }
 .location {
   background-color: #f13c6e;
